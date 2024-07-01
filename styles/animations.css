@@ -1,0 +1,46 @@
+@keyframes drawLineIn {
+  from {
+    right: 100%;
+  }
+
+  to {
+    right: 0;
+  }
+}
+
+@keyframes drawLineOut {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes removeHoverDrawLine {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes moveUpDown {
+  0% {
+    top: 0;
+    /* Start at top */
+  }
+
+  50% {
+    top: -20px;
+    /* Move down halfway through the animation */
+  }
+
+  100% {
+    top: 0;
+    /* Return to top at the end */
+  }
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'almarai-extrabold';
+    src: url('fonts/almarai-extrabold.ttf') format('truetype'),
+        url('fonts/almarai-extrabold-webfont.woff2') format('woff2'),
+        url('fonts/almarai-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'almarai-bold';
+    src: url('fonts/almarai-bold.ttf') format('truetype'),
+        url('fonts/almarai-bold-webfont.woff2') format('woff2'),
+        url('fonts/almarai-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'almarai';
+    src: url('fonts/almarai-regular.ttf') format('truetype'),
+        url('fonts/almarai-regular-webfont.woff2') format('woff2'),
+        url('fonts/almarai-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'almarai-light';
+    src: url('fonts/almarai-light.ttf') format('truetype'),
+        url('fonts/almarai-light-webfont.woff2') format('woff2'),
+        url('fonts/almarai-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,13 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>nooni</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <div class="header-top">
+        <div class="container d-flx just-between align-center">
+          <div>
+            Up to 40% off Best-Selling Furniture.
+            <a class="action" href="#">Shop Now</a>
+          </div>
+
+          <div class="d-flx just-between align-center gap-2 dropdown-list">
+            <div class="dropdown">
+              <a href="javascript:;" class="dropdown-button">english</a>
+              <ul class="dropdown-content">
+                <li><a href="#">arabic</a></li>
+                <li><a href="#">french</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <a href="javascript:;" class="dropdown-button">usd</a>
+              <ul class="dropdown-content">
+                <li><a href="#">sar</a></li>
+                <li><a href="#">egp</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-mid">
+        <div class="container d-flx just-between align-center">
+          <div class="d-flx align-center gap-1">
+            <div class="hamburger-menu icon"></div>
+            <div class="search icon"></div>
+          </div>
+          <a href="#" class="logo-main">
+            <img src="/logo.png" alt="main logo" />
+          </a>
+          <div class="header-actions d-flx just-between align-center gap-1">
+            <div class="user icon"></div>
+            <div class="heart icon"></div>
+            <div class="cart icon"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- <section class="header-swiper">
+        <div class="container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="d-flx just-between align-center slide-container">
+                <div>
+                  <p class="text-upper">new arrivals</p>
+                  <h2 class="text-capital">chairs & seating</h2>
+                  <h2 class="text-capital">you'll love</h2>
+                  <p>
+                    Designer chair styles for every space
+                    <strong class="text-capital">free shipping</strong>
+                  </p>
+                  <a href="" class="text-capital">shop now</a>
+                </div>
+                <div class="img-container">
+                  <div class="img-wrapper">
+                    <img src="/slide-1.png" alt="slide 1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+        </div>
+      </section> -->
+
+    <section class="container container-pa">
+      <h3>shop by category</h3>
+      <div class="category-swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div>
+              <div class="img-wrapper">
+                <img src="" alt="" />
+              </div>
+              <div>
+                <h5>Table</h5>
+              </div>
+              <p>5 products</p>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+        </div>
+      </div>
+    </section>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
